@@ -177,3 +177,7 @@ li {
 .cards {
   display: flex;
 }
+.container {
+  background-color: rgb(24, 24, 110);
+  display: flex;
+}

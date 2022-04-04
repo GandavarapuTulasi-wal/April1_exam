@@ -42,11 +42,7 @@ function Login() {
         />
 
         <button>Login</button>
-        {status ? (
-          <p>User Registered Succesfull</p>
-        ) : (
-          <p>Username already exists</p>
-        )}
+        {status ? <p>login Succesfull</p> : <p>Please Login</p>}
       </form>
     </div>
   );

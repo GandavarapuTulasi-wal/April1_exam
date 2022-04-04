@@ -40,11 +40,7 @@ function Registration() {
 
         <button>Register</button>
       </form>
-      {status ? (
-        <p>User Registered Succesfull</p>
-      ) : (
-        <p>Username already exists</p>
-      )}
+      {status ? <p>User Registered Succesfull</p> : <p>please Register</p>}
     </div>
   );
 }
